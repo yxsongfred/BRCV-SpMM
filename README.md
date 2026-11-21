@@ -5,7 +5,7 @@ CUDA, Python
 ## File organization
 - [`gemmBatched.cu`](https://github.com/yxsongfred/BRCV-SpMM/blob/main/gemmBatched.cu):
 Batched matrix-matrix multiplication (GEMM) accelerated by cuBLAS
-- [`gemmSerial.cu`](https://github.com/yxsongfred/BRCV-SpMM/blob/main/gemmBatched.cu):
+- [`gemmSerial.cu`](https://github.com/yxsongfred/BRCV-SpMM/blob/main/gemmSerial.cu):
 Serial implementation of batched matrix-matrix multiplication accelerated by cuBLAS
 - [`spmmCSRBatched.cu`](https://github.com/yxsongfred/BRCV-SpMM/blob/main/spmmCSRBatched.cu):
 Batched CSR-format sparse matrix-matrix multiplication (SpMM) accelerated by cuSPARSE
@@ -22,5 +22,5 @@ Adjacency matrix (sparse) and dense matrix (dense) in real-word applications (Co
 Generate experimental datasets
 - [`nodeReordering/`](https://github.com/yxsongfred/BRCV-SpMM/tree/main/nodeReordering):
 C++ implementation of Reverse Cuthill-Mckee (RCM) algorithm for node reordering in adjacency matrix
-- [`gpu_course/`](https://github.com/yxsongfred/BRCV-SpMM/tree/main/gpu_course):
+- [`gpu_course/`](https://github.com/yxsongfred/BRCV-SpMM/tree/main/cuda_course):
 My implementation of homework for UCAS 23 Fall course "GPU Architecture and Programming"
